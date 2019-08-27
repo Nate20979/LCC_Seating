@@ -11,8 +11,8 @@ pdf.set_auto_page_break(True, 2.0)
 
 server = 'testseating.database.windows.net'
 database = 'Test SQL Seating '
-username = 'nstern'
-password = 'lccLions!'
+username = '******'
+password = '********'
 driver= '{ODBC Driver 13 for SQL Server}'
 cnxn = pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
